@@ -1,8 +1,8 @@
 {
-  const className = 'ytp-ad-skip-button';
+  const classNames = '.ytp-ad-skip-button-modern, .ytp-ad-skip-button';
 
   const skipAd = () => {
-    const buttons = document.getElementsByClassName(className);
+    const buttons = document.querySelectorAll(classNames);
     for (let i = 0; i < buttons.length; i++) {
       buttons[i].click();
     }
